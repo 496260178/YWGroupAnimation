@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		389C6ACADEF4E40769283333 /* libPods-YWGroupAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE843F61686D38FCE47E15B /* libPods-YWGroupAnimation.a */; };
+		9EAB7D071E1E218E00918B16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D061E1E218E00918B16 /* main.m */; };
+		9EAB7D0A1E1E218E00918B16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D091E1E218E00918B16 /* AppDelegate.m */; };
+		9EAB7D0D1E1E218E00918B16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D0C1E1E218E00918B16 /* ViewController.m */; };
+		9EAB7D101E1E218E00918B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAB7D0E1E1E218E00918B16 /* Main.storyboard */; };
+		9EAB7D121E1E218E00918B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAB7D111E1E218E00918B16 /* Assets.xcassets */; };
+		9EAB7D2A1E1E271700918B16 /* YWGroupAnimAlphaBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D1F1E1E271700918B16 /* YWGroupAnimAlphaBean.m */; };
+		9EAB7D2B1E1E271700918B16 /* YWGroupAnimBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D211E1E271700918B16 /* YWGroupAnimBean.m */; };
+		9EAB7D2C1E1E271700918B16 /* YWGroupAnimGifInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D231E1E271700918B16 /* YWGroupAnimGifInfo.m */; };
+		9EAB7D2D1E1E271700918B16 /* YWGroupAnimRotateBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D251E1E271700918B16 /* YWGroupAnimRotateBean.m */; };
+		9EAB7D2E1E1E271700918B16 /* YWGroupAnimScaleBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D271E1E271700918B16 /* YWGroupAnimScaleBean.m */; };
+		9EAB7D2F1E1E271700918B16 /* YWGroupAnimTranslateBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D291E1E271700918B16 /* YWGroupAnimTranslateBean.m */; };
+		9EAB7D361E1E272200918B16 /* UIView+YWGroupAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D311E1E272200918B16 /* UIView+YWGroupAnimations.m */; };
+		9EAB7D371E1E272200918B16 /* YWGroupAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D331E1E272200918B16 /* YWGroupAnimations.m */; };
+		9EAB7D381E1E272200918B16 /* YWGroupAnimConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D351E1E272200918B16 /* YWGroupAnimConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EB411F5B482F6987237A39 /* Pods-YWGroupAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWGroupAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-YWGroupAnimation/Pods-YWGroupAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		3FE843F61686D38FCE47E15B /* libPods-YWGroupAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YWGroupAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAB7D021E1E218E00918B16 /* YWGroupAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWGroupAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAB7D061E1E218E00918B16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EAB7D081E1E218E00918B16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EAB7D091E1E218E00918B16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EAB7D0B1E1E218E00918B16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9EAB7D0C1E1E218E00918B16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EAB7D0F1E1E218E00918B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EAB7D111E1E218E00918B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EAB7D161E1E218E00918B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EAB7D1E1E1E271700918B16 /* YWGroupAnimAlphaBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimAlphaBean.h; path = YWGroupAnim/Bean/YWGroupAnimAlphaBean.h; sourceTree = "<group>"; };
+		9EAB7D1F1E1E271700918B16 /* YWGroupAnimAlphaBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimAlphaBean.m; path = YWGroupAnim/Bean/YWGroupAnimAlphaBean.m; sourceTree = "<group>"; };
+		9EAB7D201E1E271700918B16 /* YWGroupAnimBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimBean.h; path = YWGroupAnim/Bean/YWGroupAnimBean.h; sourceTree = "<group>"; };
+		9EAB7D211E1E271700918B16 /* YWGroupAnimBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimBean.m; path = YWGroupAnim/Bean/YWGroupAnimBean.m; sourceTree = "<group>"; };
+		9EAB7D221E1E271700918B16 /* YWGroupAnimGifInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimGifInfo.h; path = YWGroupAnim/Bean/YWGroupAnimGifInfo.h; sourceTree = "<group>"; };
+		9EAB7D231E1E271700918B16 /* YWGroupAnimGifInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimGifInfo.m; path = YWGroupAnim/Bean/YWGroupAnimGifInfo.m; sourceTree = "<group>"; };
+		9EAB7D241E1E271700918B16 /* YWGroupAnimRotateBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimRotateBean.h; path = YWGroupAnim/Bean/YWGroupAnimRotateBean.h; sourceTree = "<group>"; };
+		9EAB7D251E1E271700918B16 /* YWGroupAnimRotateBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimRotateBean.m; path = YWGroupAnim/Bean/YWGroupAnimRotateBean.m; sourceTree = "<group>"; };
+		9EAB7D261E1E271700918B16 /* YWGroupAnimScaleBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimScaleBean.h; path = YWGroupAnim/Bean/YWGroupAnimScaleBean.h; sourceTree = "<group>"; };
+		9EAB7D271E1E271700918B16 /* YWGroupAnimScaleBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimScaleBean.m; path = YWGroupAnim/Bean/YWGroupAnimScaleBean.m; sourceTree = "<group>"; };
+		9EAB7D281E1E271700918B16 /* YWGroupAnimTranslateBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimTranslateBean.h; path = YWGroupAnim/Bean/YWGroupAnimTranslateBean.h; sourceTree = "<group>"; };
+		9EAB7D291E1E271700918B16 /* YWGroupAnimTranslateBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimTranslateBean.m; path = YWGroupAnim/Bean/YWGroupAnimTranslateBean.m; sourceTree = "<group>"; };
+		9EAB7D301E1E272200918B16 /* UIView+YWGroupAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+YWGroupAnimations.h"; path = "YWGroupAnim/UIView+YWGroupAnimations.h"; sourceTree = "<group>"; };
+		9EAB7D311E1E272200918B16 /* UIView+YWGroupAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+YWGroupAnimations.m"; path = "YWGroupAnim/UIView+YWGroupAnimations.m"; sourceTree = "<group>"; };
+		9EAB7D321E1E272200918B16 /* YWGroupAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimations.h; path = YWGroupAnim/YWGroupAnimations.h; sourceTree = "<group>"; };
+		9EAB7D331E1E272200918B16 /* YWGroupAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimations.m; path = YWGroupAnim/YWGroupAnimations.m; sourceTree = "<group>"; };
+		9EAB7D341E1E272200918B16 /* YWGroupAnimConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimConfig.h; path = YWGroupAnim/YWGroupAnimConfig.h; sourceTree = "<group>"; };
+		9EAB7D351E1E272200918B16 /* YWGroupAnimConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimConfig.m; path = YWGroupAnim/YWGroupAnimConfig.m; sourceTree = "<group>"; };
+		F2A60A90E48ECDA34B0ED906 /* Pods-YWGroupAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWGroupAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWGroupAnimation/Pods-YWGroupAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EAB7CFF1E1E218E00918B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389C6ACADEF4E40769283333 /* libPods-YWGroupAnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D8E13B3686025FBD8B53AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2A60A90E48ECDA34B0ED906 /* Pods-YWGroupAnimation.debug.xcconfig */,
+				04EB411F5B482F6987237A39 /* Pods-YWGroupAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EAB7CF91E1E218D00918B16 = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D041E1E218E00918B16 /* YWGroupAnimation */,
+				9EAB7D031E1E218E00918B16 /* Products */,
+				39D8E13B3686025FBD8B53AE /* Pods */,
+				EB8FADD2C7F91E45B5FDFC2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EAB7D031E1E218E00918B16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D021E1E218E00918B16 /* YWGroupAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EAB7D041E1E218E00918B16 /* YWGroupAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D1C1E1E26FE00918B16 /* YWGroupAnim */,
+				9EAB7D081E1E218E00918B16 /* AppDelegate.h */,
+				9EAB7D091E1E218E00918B16 /* AppDelegate.m */,
+				9EAB7D0B1E1E218E00918B16 /* ViewController.h */,
+				9EAB7D0C1E1E218E00918B16 /* ViewController.m */,
+				9EAB7D0E1E1E218E00918B16 /* Main.storyboard */,
+				9EAB7D111E1E218E00918B16 /* Assets.xcassets */,
+				9EAB7D161E1E218E00918B16 /* Info.plist */,
+				9EAB7D051E1E218E00918B16 /* Supporting Files */,
+			);
+			path = YWGroupAnimation;
+			sourceTree = "<group>";
+		};
+		9EAB7D051E1E218E00918B16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D061E1E218E00918B16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EAB7D1C1E1E26FE00918B16 /* YWGroupAnim */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D1D1E1E270900918B16 /* Bean */,
+				9EAB7D301E1E272200918B16 /* UIView+YWGroupAnimations.h */,
+				9EAB7D311E1E272200918B16 /* UIView+YWGroupAnimations.m */,
+				9EAB7D321E1E272200918B16 /* YWGroupAnimations.h */,
+				9EAB7D331E1E272200918B16 /* YWGroupAnimations.m */,
+				9EAB7D341E1E272200918B16 /* YWGroupAnimConfig.h */,
+				9EAB7D351E1E272200918B16 /* YWGroupAnimConfig.m */,
+			);
+			name = YWGroupAnim;
+			sourceTree = "<group>";
+		};
+		9EAB7D1D1E1E270900918B16 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D221E1E271700918B16 /* YWGroupAnimGifInfo.h */,
+				9EAB7D231E1E271700918B16 /* YWGroupAnimGifInfo.m */,
+				9EAB7D201E1E271700918B16 /* YWGroupAnimBean.h */,
+				9EAB7D211E1E271700918B16 /* YWGroupAnimBean.m */,
+				9EAB7D1E1E1E271700918B16 /* YWGroupAnimAlphaBean.h */,
+				9EAB7D1F1E1E271700918B16 /* YWGroupAnimAlphaBean.m */,
+				9EAB7D241E1E271700918B16 /* YWGroupAnimRotateBean.h */,
+				9EAB7D251E1E271700918B16 /* YWGroupAnimRotateBean.m */,
+				9EAB7D261E1E271700918B16 /* YWGroupAnimScaleBean.h */,
+				9EAB7D271E1E271700918B16 /* YWGroupAnimScaleBean.m */,
+				9EAB7D281E1E271700918B16 /* YWGroupAnimTranslateBean.h */,
+				9EAB7D291E1E271700918B16 /* YWGroupAnimTranslateBean.m */,
+			);
+			name = Bean;
+			sourceTree = "<group>";
+		};
+		EB8FADD2C7F91E45B5FDFC2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FE843F61686D38FCE47E15B /* libPods-YWGroupAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EAB7D011E1E218E00918B16 /* YWGroupAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAB7D191E1E218E00918B16 /* Build configuration list for PBXNativeTarget "YWGroupAnimation" */;
+			buildPhases = (
+				2D066ED5275D61E46E20B4FF /* [CP] Check Pods Manifest.lock */,
+				9EAB7CFE1E1E218E00918B16 /* Sources */,
+				9EAB7CFF1E1E218E00918B16 /* Frameworks */,
+				9EAB7D001E1E218E00918B16 /* Resources */,
+				EE1ACEDD9DD87F551B94D29D /* [CP] Embed Pods Frameworks */,
+				494FF6307FF6015975A027BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWGroupAnimation;
+			productName = YWGroupAnimation;
+			productReference = 9EAB7D021E1E218E00918B16 /* YWGroupAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EAB7CFA1E1E218D00918B16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yuwan Technology";
+				TargetAttributes = {
+					9EAB7D011E1E218E00918B16 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7AK6GPZB2X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9EAB7CFD1E1E218D00918B16 /* Build configuration list for PBXProject "YWGroupAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EAB7CF91E1E218D00918B16;
+			productRefGroup = 9EAB7D031E1E218E00918B16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EAB7D011E1E218E00918B16 /* YWGroupAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EAB7D001E1E218E00918B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAB7D121E1E218E00918B16 /* Assets.xcassets in Resources */,
+				9EAB7D101E1E218E00918B16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D066ED5275D61E46E20B4FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		494FF6307FF6015975A027BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWGroupAnimation/Pods-YWGroupAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1ACEDD9DD87F551B94D29D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YWGroupAnimation/Pods-YWGroupAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EAB7CFE1E1E218E00918B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAB7D2B1E1E271700918B16 /* YWGroupAnimBean.m in Sources */,
+				9EAB7D2E1E1E271700918B16 /* YWGroupAnimScaleBean.m in Sources */,
+				9EAB7D381E1E272200918B16 /* YWGroupAnimConfig.m in Sources */,
+				9EAB7D0D1E1E218E00918B16 /* ViewController.m in Sources */,
+				9EAB7D0A1E1E218E00918B16 /* AppDelegate.m in Sources */,
+				9EAB7D071E1E218E00918B16 /* main.m in Sources */,
+				9EAB7D2D1E1E271700918B16 /* YWGroupAnimRotateBean.m in Sources */,
+				9EAB7D2A1E1E271700918B16 /* YWGroupAnimAlphaBean.m in Sources */,
+				9EAB7D361E1E272200918B16 /* UIView+YWGroupAnimations.m in Sources */,
+				9EAB7D371E1E272200918B16 /* YWGroupAnimations.m in Sources */,
+				9EAB7D2F1E1E271700918B16 /* YWGroupAnimTranslateBean.m in Sources */,
+				9EAB7D2C1E1E271700918B16 /* YWGroupAnimGifInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EAB7D0E1E1E218E00918B16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EAB7D0F1E1E218E00918B16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EAB7D171E1E218E00918B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EAB7D181E1E218E00918B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EAB7D1A1E1E218E00918B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A60A90E48ECDA34B0ED906 /* Pods-YWGroupAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7AK6GPZB2X;
+				INFOPLIST_FILE = YWGroupAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JinTang.YWGroupAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EAB7D1B1E1E218E00918B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EB411F5B482F6987237A39 /* Pods-YWGroupAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7AK6GPZB2X;
+				INFOPLIST_FILE = YWGroupAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JinTang.YWGroupAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EAB7CFD1E1E218D00918B16 /* Build configuration list for PBXProject "YWGroupAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAB7D171E1E218E00918B16 /* Debug */,
+				9EAB7D181E1E218E00918B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAB7D191E1E218E00918B16 /* Build configuration list for PBXNativeTarget "YWGroupAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EAB7D1A1E1E218E00918B16 /* Debug */,
+				9EAB7D1B1E1E218E00918B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EAB7CFA1E1E218D00918B16 /* Project object */;
+}
