@@ -51,7 +51,7 @@
 - (void)onViewClicked:(UITapGestureRecognizer *)recognizer {
     CGPoint touchPoint = [recognizer locationInView:self.view];
     if ([self.animationView.layer.presentationLayer hitTest:touchPoint]) {
-        NSLog(@"点中🌶🌶🌶!!!");
+        NSLog(@"🌶🌶🌶!!!");
     }
 }
 
