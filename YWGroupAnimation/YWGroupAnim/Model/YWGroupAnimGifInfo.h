@@ -1,9 +1,9 @@
 //
 //  YWGroupAnimGifInfo.h
-//  YWAnimationDemo
+//  YWGroupAnimation
 //
-//  Created by JinTang on 2016/12/20.
-//  Copyright © 2016年 jin tang. All rights reserved.
+//  Created by JinTang on 2017/1/5.
+//  Copyright © 2017年 jin tang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

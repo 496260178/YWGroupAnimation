@@ -15,13 +15,18 @@
 		9EAB7D121E1E218E00918B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAB7D111E1E218E00918B16 /* Assets.xcassets */; };
 		9EAB7D2A1E1E271700918B16 /* YWGroupAnimAlphaBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D1F1E1E271700918B16 /* YWGroupAnimAlphaBean.m */; };
 		9EAB7D2B1E1E271700918B16 /* YWGroupAnimBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D211E1E271700918B16 /* YWGroupAnimBean.m */; };
-		9EAB7D2C1E1E271700918B16 /* YWGroupAnimGifInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D231E1E271700918B16 /* YWGroupAnimGifInfo.m */; };
 		9EAB7D2D1E1E271700918B16 /* YWGroupAnimRotateBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D251E1E271700918B16 /* YWGroupAnimRotateBean.m */; };
 		9EAB7D2E1E1E271700918B16 /* YWGroupAnimScaleBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D271E1E271700918B16 /* YWGroupAnimScaleBean.m */; };
 		9EAB7D2F1E1E271700918B16 /* YWGroupAnimTranslateBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D291E1E271700918B16 /* YWGroupAnimTranslateBean.m */; };
 		9EAB7D361E1E272200918B16 /* UIView+YWGroupAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D311E1E272200918B16 /* UIView+YWGroupAnimations.m */; };
 		9EAB7D371E1E272200918B16 /* YWGroupAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D331E1E272200918B16 /* YWGroupAnimations.m */; };
-		9EAB7D381E1E272200918B16 /* YWGroupAnimConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D351E1E272200918B16 /* YWGroupAnimConfig.m */; };
+		9EAB7D3C1E1E3E0900918B16 /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D3A1E1E3E0900918B16 /* NSBKeyframeAnimationFunctions.c */; };
+		9EAB7D411E1E401300918B16 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAB7D3E1E1E401300918B16 /* 1@2x.png */; };
+		9EAB7D421E1E401300918B16 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EAB7D3F1E1E401300918B16 /* 2@2x.png */; };
+		9EAB7D431E1E401300918B16 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9EAB7D401E1E401300918B16 /* config.xml */; };
+		9EAB7D4F1E1E490D00918B16 /* YWGroupAnimGifInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D4C1E1E490D00918B16 /* YWGroupAnimGifInfo.m */; };
+		9EAB7D501E1E490D00918B16 /* YWGroupAnimInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D4E1E1E490D00918B16 /* YWGroupAnimInfo.m */; };
+		9EAB7D531E1E495B00918B16 /* YWGroupAnimConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB7D521E1E495B00918B16 /* YWGroupAnimConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +45,6 @@
 		9EAB7D1F1E1E271700918B16 /* YWGroupAnimAlphaBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimAlphaBean.m; path = YWGroupAnim/Bean/YWGroupAnimAlphaBean.m; sourceTree = "<group>"; };
 		9EAB7D201E1E271700918B16 /* YWGroupAnimBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimBean.h; path = YWGroupAnim/Bean/YWGroupAnimBean.h; sourceTree = "<group>"; };
 		9EAB7D211E1E271700918B16 /* YWGroupAnimBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimBean.m; path = YWGroupAnim/Bean/YWGroupAnimBean.m; sourceTree = "<group>"; };
-		9EAB7D221E1E271700918B16 /* YWGroupAnimGifInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimGifInfo.h; path = YWGroupAnim/Bean/YWGroupAnimGifInfo.h; sourceTree = "<group>"; };
-		9EAB7D231E1E271700918B16 /* YWGroupAnimGifInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimGifInfo.m; path = YWGroupAnim/Bean/YWGroupAnimGifInfo.m; sourceTree = "<group>"; };
 		9EAB7D241E1E271700918B16 /* YWGroupAnimRotateBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimRotateBean.h; path = YWGroupAnim/Bean/YWGroupAnimRotateBean.h; sourceTree = "<group>"; };
 		9EAB7D251E1E271700918B16 /* YWGroupAnimRotateBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimRotateBean.m; path = YWGroupAnim/Bean/YWGroupAnimRotateBean.m; sourceTree = "<group>"; };
 		9EAB7D261E1E271700918B16 /* YWGroupAnimScaleBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimScaleBean.h; path = YWGroupAnim/Bean/YWGroupAnimScaleBean.h; sourceTree = "<group>"; };
@@ -52,8 +55,17 @@
 		9EAB7D311E1E272200918B16 /* UIView+YWGroupAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+YWGroupAnimations.m"; path = "YWGroupAnim/UIView+YWGroupAnimations.m"; sourceTree = "<group>"; };
 		9EAB7D321E1E272200918B16 /* YWGroupAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimations.h; path = YWGroupAnim/YWGroupAnimations.h; sourceTree = "<group>"; };
 		9EAB7D331E1E272200918B16 /* YWGroupAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimations.m; path = YWGroupAnim/YWGroupAnimations.m; sourceTree = "<group>"; };
-		9EAB7D341E1E272200918B16 /* YWGroupAnimConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimConfig.h; path = YWGroupAnim/YWGroupAnimConfig.h; sourceTree = "<group>"; };
-		9EAB7D351E1E272200918B16 /* YWGroupAnimConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimConfig.m; path = YWGroupAnim/YWGroupAnimConfig.m; sourceTree = "<group>"; };
+		9EAB7D3A1E1E3E0900918B16 /* NSBKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NSBKeyframeAnimationFunctions.c; path = Others/NSBKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		9EAB7D3B1E1E3E0900918B16 /* NSBKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSBKeyframeAnimationFunctions.h; path = Others/NSBKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
+		9EAB7D3E1E1E401300918B16 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1@2x.png"; path = "Resource/1@2x.png"; sourceTree = "<group>"; };
+		9EAB7D3F1E1E401300918B16 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2@2x.png"; path = "Resource/2@2x.png"; sourceTree = "<group>"; };
+		9EAB7D401E1E401300918B16 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = config.xml; path = Resource/config.xml; sourceTree = "<group>"; };
+		9EAB7D4B1E1E490D00918B16 /* YWGroupAnimGifInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimGifInfo.h; path = YWGroupAnim/Model/YWGroupAnimGifInfo.h; sourceTree = "<group>"; };
+		9EAB7D4C1E1E490D00918B16 /* YWGroupAnimGifInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimGifInfo.m; path = YWGroupAnim/Model/YWGroupAnimGifInfo.m; sourceTree = "<group>"; };
+		9EAB7D4D1E1E490D00918B16 /* YWGroupAnimInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YWGroupAnimInfo.h; path = YWGroupAnim/Model/YWGroupAnimInfo.h; sourceTree = "<group>"; };
+		9EAB7D4E1E1E490D00918B16 /* YWGroupAnimInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YWGroupAnimInfo.m; path = YWGroupAnim/Model/YWGroupAnimInfo.m; sourceTree = "<group>"; };
+		9EAB7D511E1E495B00918B16 /* YWGroupAnimConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWGroupAnimConfig.h; sourceTree = "<group>"; };
+		9EAB7D521E1E495B00918B16 /* YWGroupAnimConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWGroupAnimConfig.m; sourceTree = "<group>"; };
 		F2A60A90E48ECDA34B0ED906 /* Pods-YWGroupAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWGroupAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YWGroupAnimation/Pods-YWGroupAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +111,10 @@
 		9EAB7D041E1E218E00918B16 /* YWGroupAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				9EAB7D391E1E3DE900918B16 /* Others */,
 				9EAB7D1C1E1E26FE00918B16 /* YWGroupAnim */,
+				9EAB7D511E1E495B00918B16 /* YWGroupAnimConfig.h */,
+				9EAB7D521E1E495B00918B16 /* YWGroupAnimConfig.m */,
 				9EAB7D081E1E218E00918B16 /* AppDelegate.h */,
 				9EAB7D091E1E218E00918B16 /* AppDelegate.m */,
 				9EAB7D0B1E1E218E00918B16 /* ViewController.h */,
@@ -115,6 +130,7 @@
 		9EAB7D051E1E218E00918B16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9EAB7D3D1E1E3EBC00918B16 /* Resource */,
 				9EAB7D061E1E218E00918B16 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -123,13 +139,12 @@
 		9EAB7D1C1E1E26FE00918B16 /* YWGroupAnim */ = {
 			isa = PBXGroup;
 			children = (
+				9EAB7D4A1E1E48CD00918B16 /* Model */,
 				9EAB7D1D1E1E270900918B16 /* Bean */,
 				9EAB7D301E1E272200918B16 /* UIView+YWGroupAnimations.h */,
 				9EAB7D311E1E272200918B16 /* UIView+YWGroupAnimations.m */,
 				9EAB7D321E1E272200918B16 /* YWGroupAnimations.h */,
 				9EAB7D331E1E272200918B16 /* YWGroupAnimations.m */,
-				9EAB7D341E1E272200918B16 /* YWGroupAnimConfig.h */,
-				9EAB7D351E1E272200918B16 /* YWGroupAnimConfig.m */,
 			);
 			name = YWGroupAnim;
 			sourceTree = "<group>";
@@ -137,8 +152,6 @@
 		9EAB7D1D1E1E270900918B16 /* Bean */ = {
 			isa = PBXGroup;
 			children = (
-				9EAB7D221E1E271700918B16 /* YWGroupAnimGifInfo.h */,
-				9EAB7D231E1E271700918B16 /* YWGroupAnimGifInfo.m */,
 				9EAB7D201E1E271700918B16 /* YWGroupAnimBean.h */,
 				9EAB7D211E1E271700918B16 /* YWGroupAnimBean.m */,
 				9EAB7D1E1E1E271700918B16 /* YWGroupAnimAlphaBean.h */,
@@ -151,6 +164,36 @@
 				9EAB7D291E1E271700918B16 /* YWGroupAnimTranslateBean.m */,
 			);
 			name = Bean;
+			sourceTree = "<group>";
+		};
+		9EAB7D391E1E3DE900918B16 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D3A1E1E3E0900918B16 /* NSBKeyframeAnimationFunctions.c */,
+				9EAB7D3B1E1E3E0900918B16 /* NSBKeyframeAnimationFunctions.h */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		9EAB7D3D1E1E3EBC00918B16 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D3E1E1E401300918B16 /* 1@2x.png */,
+				9EAB7D3F1E1E401300918B16 /* 2@2x.png */,
+				9EAB7D401E1E401300918B16 /* config.xml */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		9EAB7D4A1E1E48CD00918B16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB7D4D1E1E490D00918B16 /* YWGroupAnimInfo.h */,
+				9EAB7D4E1E1E490D00918B16 /* YWGroupAnimInfo.m */,
+				9EAB7D4B1E1E490D00918B16 /* YWGroupAnimGifInfo.h */,
+				9EAB7D4C1E1E490D00918B16 /* YWGroupAnimGifInfo.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		EB8FADD2C7F91E45B5FDFC2C /* Frameworks */ = {
@@ -223,8 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAB7D411E1E401300918B16 /* 1@2x.png in Resources */,
 				9EAB7D121E1E218E00918B16 /* Assets.xcassets in Resources */,
 				9EAB7D101E1E218E00918B16 /* Main.storyboard in Resources */,
+				9EAB7D421E1E401300918B16 /* 2@2x.png in Resources */,
+				9EAB7D431E1E401300918B16 /* config.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,18 +329,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAB7D531E1E495B00918B16 /* YWGroupAnimConfig.m in Sources */,
 				9EAB7D2B1E1E271700918B16 /* YWGroupAnimBean.m in Sources */,
+				9EAB7D3C1E1E3E0900918B16 /* NSBKeyframeAnimationFunctions.c in Sources */,
 				9EAB7D2E1E1E271700918B16 /* YWGroupAnimScaleBean.m in Sources */,
-				9EAB7D381E1E272200918B16 /* YWGroupAnimConfig.m in Sources */,
 				9EAB7D0D1E1E218E00918B16 /* ViewController.m in Sources */,
 				9EAB7D0A1E1E218E00918B16 /* AppDelegate.m in Sources */,
 				9EAB7D071E1E218E00918B16 /* main.m in Sources */,
 				9EAB7D2D1E1E271700918B16 /* YWGroupAnimRotateBean.m in Sources */,
+				9EAB7D4F1E1E490D00918B16 /* YWGroupAnimGifInfo.m in Sources */,
 				9EAB7D2A1E1E271700918B16 /* YWGroupAnimAlphaBean.m in Sources */,
+				9EAB7D501E1E490D00918B16 /* YWGroupAnimInfo.m in Sources */,
 				9EAB7D361E1E272200918B16 /* UIView+YWGroupAnimations.m in Sources */,
 				9EAB7D371E1E272200918B16 /* YWGroupAnimations.m in Sources */,
 				9EAB7D2F1E1E271700918B16 /* YWGroupAnimTranslateBean.m in Sources */,
-				9EAB7D2C1E1E271700918B16 /* YWGroupAnimGifInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

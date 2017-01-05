@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 通用动画属性
+ beginTime       动画开始时间(毫秒)
+ duration        动画持续时间(毫秒)
+ repeatCount     动画重复执行次数(-1：无限次、默认为1)
+ repeatMode      动画重复执行模式
+ 说明：
+ reverse 倒序回放
+ restart 重新开始
+ easingFuction   缓动函数
+ 说明：
+ easeIn      淡入 初始减速
+ easeOut     淡出 末尾减速
+ easeInOut   淡入淡出 首末减速
+ fillMode        决定当前对象在非active时间段的行为
+ 说明：
+ forwards    动画结束后，layer会一直保持着动画最后的状态
+ backwards   动画结束后，layer会恢复到之前的状态
+ 
+ 渐变动画属性(alpha)
+ fromAlpha       动画起始时透明度(0.0-1.0)
+ toAlpha         动画结束时透明度(0.0-1.0)
+ 
+ 伸缩动画属性(scale)
+ fromXScale
+ fromYScale
+ toXScale
+ toYScale
+ 
+ 位移动画属性(translate)
+ fromXDelta          动画起始时 X坐标的位置
+ fromYDelta          动画起始时 Y坐标的位置
+ toXDelta            动画结束时 X坐标的位置
+ toYDelta            动画结束时 Y坐标的位置
+ 
+ 旋转动画属性(rotate)
+ pivotX              动画相对于组件 X坐标的开始位置(0.0-1.0)
+ pivotY              动画相对于组件 Y坐标的开始位置(0.0-1.0)
+ fromDegrees         动画起始时组件的角度
+ toDegrees           动画结束时组件旋转的角度
+ -->
+
+<config>
+    <images>
+        <image src="1" duration="200" />
+        <image src="2" duration="200" />
+    </images>
+    <animation repeatCount="-1" repeatMode="restart">
+        <rotate
+        duration="300"
+        fillMode="forwards"
+        fromDegrees="40"
+        pivotX="0.5"
+        pivotY="0.5"
+        repeatCount="1"
+        repeatMode="restart"
+        toDegrees="-40"/>
+        <rotate
+        beginTime="300"
+        duration="300"
+        fillMode="forwards"
+        fromDegrees="-40"
+        pivotX="0.5"
+        pivotY="0.5"
+        repeatCount="1"
+        repeatMode="restart"
+        toDegrees="40"/>
+    </animation>
+</config>

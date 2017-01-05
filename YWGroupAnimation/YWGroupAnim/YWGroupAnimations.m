@@ -1,9 +1,9 @@
 //
 //  YWGroupAnimations.m
-//  PengPeng
+//  YWGroupAnimation
 //
-//  Created by JinTang on 2016/12/18.
-//  Copyright © 2016年 贵阳朗玛信息技术股份有限公司. All rights reserved.
+//  Created by JinTang on 2017/1/5.
+//  Copyright © 2017年 jin tang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

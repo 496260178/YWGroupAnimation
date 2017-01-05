@@ -1,9 +1,9 @@
 //
 //  YWGroupAnimScaleBean.m
-//  YWAnimationDemo
+//  YWGroupAnimation
 //
-//  Created by jin tang on 2016/12/18.
-//  Copyright © 2016年 jin tang. All rights reserved.
+//  Created by jin tang on 2017/1/5.
+//  Copyright © 2017年 jin tang. All rights reserved.
 //
 
 #import "YWGroupAnimScaleBean.h"

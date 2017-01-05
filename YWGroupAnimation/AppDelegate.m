@@ -3,7 +3,7 @@
 //  YWGroupAnimation
 //
 //  Created by JinTang on 2017/1/5.
-//  Copyright © 2017年 Yuwan Technology. All rights reserved.
+//  Copyright © 2017年 jin tang. All rights reserved.
 //
 
 #import "AppDelegate.h"
